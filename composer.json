@@ -1,0 +1,19 @@
+{
+    "name": "hp/email-proj",
+    "description": "Email sending",
+    "type": "project",
+    "require": {
+        "phpmailer/phpmailer": "^6.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Hp\\EmailProj\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "elishambadi",
+            "email": "embadi43@gmail.com"
+        }
+    ]
+}
